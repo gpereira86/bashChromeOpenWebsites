@@ -1,13 +1,13 @@
 @echo off
 setlocal
 
-REM Abre a primeira URL em uma nova janela do Chrome no monitor 1
+REM Abre a primeira URL em uma nova janela do Chrome
 start chrome --new-window --window-position=0,0  "https://portal.gupy.io/"
 
 REM Aguarda um tempo para a janela do Chrome abrir completamente
 timeout /t 1 /nobreak >nul
 
-REM Abre as próximas URLs em novas guias da mesma janela maximizada
+REM Abre as próximas URLs em novas guias da mesma janela
 start chrome "https://www.infojobs.com.br/candidate/"
 timeout /t 0 /nobreak >nul
 start chrome "https://www.catho.com.br/area-candidato/metricas/cvs-enviados"
