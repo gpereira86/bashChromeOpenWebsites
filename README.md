@@ -1,7 +1,7 @@
 # bashChromeOpenWebsites
 Bash to open websites in the Chrome browser:
 
-'''
+___
 @echo off
 setlocal
 
@@ -17,4 +17,4 @@ timeout /t 1 /nobreak >nul
 start chrome "https://www.linkedin.com/feed/"
 
 endlocal
-'''
+___
