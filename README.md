@@ -1,5 +1,5 @@
-# bashChromeOpenWebsites
-Bash to open websites in the Chrome browser:
+## Batch Chrome Open Websites
+Batch to open websites in the Chrome browser:
 
 ___
 @echo off
